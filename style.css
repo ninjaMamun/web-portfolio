@@ -2,19 +2,80 @@ h1{
     font-size: 50px;
     font-family: 'Lobster', cursive;
 }
+h2{
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+p{
+    color: dimgray;
+    word-wrap: break-word;
+    
+}
 body{
+    margin: 0%;
     font-family: 'Roboto', sans-serif;
 }
 .name{
-    color: orange;
+    color: #14ded1;
 }
 .half-width{
     width: 40%;
     float: left;
-    margin-left: 5%;
-    padding-left: 5%;
+    margin-left: 4%;
+    padding-left: 2%;
 }
 
 .half-width img{
-    width: 100%;
+    width: 90%;
+}
+.top-banner{
+    background-image: url(/images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 50px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#3b96f7, #12e3ce);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.dream-area{
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(85, 85, 233), rgb(18, 223, 18));
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
+#ex{
+    margin-left: 40px;
 }
